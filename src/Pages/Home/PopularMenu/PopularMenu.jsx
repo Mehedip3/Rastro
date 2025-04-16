@@ -43,7 +43,8 @@ useEffect( () =>{
             }
 
          </div>
-            
+
+         <button className='btn btn-outline border-0 border-b-4 mt-10 mx-auto block text-center'>View More Menu</button>
 
 
         </section>

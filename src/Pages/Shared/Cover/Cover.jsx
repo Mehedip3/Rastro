@@ -6,7 +6,7 @@ const Cover = ({img, title}) => {
     return (
 
       <Parallax
-      blur={{ min: -50, max: 50 }}
+      blur={{ min: -25, max: 25 }}
       bgImage={img}
       bgImageAlt="the menu"
       strength={-200}
@@ -16,14 +16,13 @@ const Cover = ({img, title}) => {
 
    
 
-      <div className="hero h-[650px]">
-   <div className="hero-overlay"></div>
+      <div className="hero h-[550px]">
+      <div className="hero-overlay w-[750px] h-[300px]"></div>
      <div className="hero-content text-neutral-content text-center">
     <div className="max-w-md">
-      <h1 className="mb-5 text-5xl font-bold uppercase">{title}</h1>
-      <p className="mb-5">
-        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-        quasi. In deleniti eaque aut repudiandae et a id nisi.
+      <h1 className="mb-5 text-7xl font-bold uppercase">{title}</h1>
+      <p className="mb-5 text-xl">
+      Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
       </p>
        </div>
      </div>

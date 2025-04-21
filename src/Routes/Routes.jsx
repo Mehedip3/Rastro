@@ -6,6 +6,7 @@ import {
 import Main from "../Layout/Main";
 import Home from "../Pages/Home/Home/Home";
 import Menu from "../Pages/Menu/Menu/Menu";
+import Contract from './../Pages/Contract/Contract';
 
 
 
@@ -18,6 +19,13 @@ import Menu from "../Pages/Menu/Menu/Menu";
             path: '/',
             element: <Home></Home>
         },
+        
+        {
+          path: 'contract',
+          element: <Contract></Contract>
+        },
+
+
         {
           path: 'menu',
           element: <Menu></Menu>

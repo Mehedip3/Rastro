@@ -22,6 +22,8 @@ const Menu = () => {
   const salads = menu.filter (item => item.category === 'salad');
   const soups = menu.filter (item => item.category === 'soup');
   const offered = menu.filter (item => item.category === 'offered');
+
+  
     return (
         <div>
 
